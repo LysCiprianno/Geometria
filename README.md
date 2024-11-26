@@ -1,7 +1,7 @@
 # Formas e Fatos
 
- (https://cdn.pixabay.com/animation/2023/05/31/16/22/16-22-19-869_512.gif)
- 
+!(https://cdn.pixabay.com/animation/2023/05/31/16/22/16-22-19-869_512.gif)
+
 **Formas e Fatos** é um site educativo e interativo que explora o mundo das formas geométricas e sua história. Através de uma abordagem divertida e didática, convido os usuários a aprender sobre diferentes formas geométricas, sua origem histórica e como calcular sua área de forma simples e prática. Ideal para estudantes, curiosos e aventureiros da matemática!
  
 ## **Funcionalidades**
