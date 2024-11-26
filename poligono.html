@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polígono Regular - Formas e Fatos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Formas e Fatos</a>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <a href="index.html" class="back-link">&larr; Voltar para a página inicial</a>
+        
+        <article class="shape-page bg-pink">
+            <h1>Polígono Regular</h1>
+            <svg class="shape-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 19 7 19 17 12 22 5 17 5 7 12 2"/></svg>
+            
+            <section>
+                <h2>História e Contexto</h2>
+                <p>Os polígonos regulares têm sido estudados desde a antiguidade, com particular interesse dos gregos antigos. Eles são fundamentais em geometria e têm aplicações em arquitetura, design e ciências naturais.</p>
+                <p>Um polígono regular é uma figura plana com todos os lados e ângulos iguais. Estes polígonos têm propriedades matemáticas fascinantes e são frequentemente encontrados na natureza e na arte.</p>
+            </section>
+            
+            <section>
+                <h2>Exemplos</h2>
+                <ul>
+                    <li>Placas de sinalização de trânsito (octógono para 'PARE', hexágono para 'Dê a preferência')</li>
+                    <li>Favos de mel, que formam hexágonos regulares</li>
+                    <li>Flocos de neve, que frequentemente têm seis lados simétricos</li>
+                    <li>Designs de logotipos e símbolos em branding</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>Fórmula</h2>
+                <p class="formula">A = (n * s² * cot(π/n)) / 4</p>
+            </section>
+            
+            <section>
+                <h2>Cálculo da Área</h2>
+                <form id="areaForm">
+                    <label for="sides">Número de lados:</label>
+                    <input type="number" id="sides" name="sides" required>
+                    <label for="sideLength">Comprimento do lado:</label>
+                    <input type="number" id="sideLength" name="sideLength" required>
+                    <button type="submit">Calcular Área</button>
+                </form>
+                <p id="result" class="result"></p>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Formas e Fatos. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

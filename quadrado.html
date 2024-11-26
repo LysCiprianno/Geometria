@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadrado - Formas e Fatos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Formas e Fatos</a>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <a href="index.html" class="back-link">&larr; Voltar para a página inicial</a>
+        
+        <article class="shape-page bg-orange">
+            <h1>Quadrado</h1>
+            <svg class="shape-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/></svg>
+            
+            <section>
+                <h2>História e Contexto</h2>
+                <p>O quadrado é uma das formas geométricas mais básicas e importantes. Tem sido estudado desde a antiguidade e é fundamental em geometria, arquitetura e design.</p>
+                <p>O quadrado é um polígono regular com quatro lados iguais e quatro ângulos retos. Sua simplicidade e simetria o tornam uma forma fundamental em matemática e design.</p>
+            </section>
+            
+            <section>
+                <h2>Exemplos</h2>
+                <ul>
+                    <li>Azulejos e ladrilhos em pisos e paredes</li>
+                    <li>Tabuleiros de jogos como xadrez e damas</li>
+                    <li>Pixels em telas digitais</li>
+                    <li>Folhas de papel padrão (aproximadamente)</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>Fórmula</h2>
+                <p class="formula">A = s²</p>
+            </section>
+            
+            <section>
+                <h2>Cálculo da Área</h2>
+                <form id="areaForm">
+                    <label for="side">Comprimento do lado:</label>
+                    <input type="number" id="side" name="side" required>
+                    <button type="submit">Calcular Área</button>
+                </form>
+                <p id="result" class="result"></p>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Formas e Fatos. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

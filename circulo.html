@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Círculo - Formas e Fatos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Formas e Fatos</a>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <a href="index.html" class="back-link">&larr; Voltar para a página inicial</a>
+        
+        <article class="shape-page bg-blue">
+            <h1>Círculo</h1>
+            <svg class="shape-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/></svg>
+            
+            <section>
+                <h2>História e Contexto</h2>
+                <p>O círculo é uma das formas mais antigas e fundamentais na matemática. A constante π (pi) foi descoberta pelos antigos babilônios e egípcios, e tem sido estudada e refinada ao longo dos séculos.</p>
+                <p>O círculo é definido como o conjunto de todos os pontos em um plano que estão a uma distância constante (chamada raio) de um ponto central. Esta forma simples, mas poderosa, tem fascinado matemáticos, artistas e filósofos por milênios.</p>
+            </section>
+            
+            <section>
+                <h2>Exemplos</h2>
+                <ul>
+                    <li>Moedas e rodas, que aproveitam a simetria perfeita do círculo</li>
+                    <li>Pratos e copos, cuja forma circular facilita o uso e a fabricação</li>
+                    <li>Planetas e suas órbitas, que seguem trajetórias aproximadamente circulares</li>
+                    <li>Ondas em um lago, que se propagam em círculos concêntricos</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>Fórmula</h2>
+                <p class="formula">A = πr²</p>
+            </section>
+            
+            <section>
+                <h2>Cálculo da Área</h2>
+                <form id="areaForm">
+                    <label for="radius">Raio:</label>
+                    <input type="number" id="radius" name="radius" required>
+                    <button type="submit">Calcular Área</button>
+                </form>
+                <p id="result" class="result"></p>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Formas e Fatos. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

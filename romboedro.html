@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romboedro - Formas e Fatos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Formas e Fatos</a>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <a href="index.html" class="back-link">&larr; Voltar para a página inicial</a>
+        
+        <article class="shape-page bg-purple">
+            <h1>Romboedro</h1>
+            <svg class="shape-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+            
+            <section>
+                <h2>História e Contexto</h2>
+                <p>O romboedro é um poliedro com seis faces losangulares idênticas. É uma forma importante em cristalografia e é encontrada em várias estruturas cristalinas.</p>
+                <p>O romboedro é uma generalização tridimensional do losango. Sua estrutura única o torna importante em campos como a mineralogia e a química, onde aparece naturalmente em certos tipos de cristais.</p>
+            </section>
+            
+            <section>
+                <h2>Exemplos</h2>
+                <ul>
+                    <li>Cristais de calcita, que naturalmente formam romboedros</li>
+                    <li>Estruturas moleculares em certos compostos químicos</li>
+                    <li>Alguns designs arquitetônicos modernos, inspirados em formas cristalinas</li>
+                    <li>Certos tipos de embalagens, que aproveitam a eficiência espacial do romboedro</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>Fórmula</h2>
+                <p class="formula">A = 6a² * sin(α)</p>
+            </section>
+            
+            <section>
+                <h2>Cálculo da Área</h2>
+                <form id="areaForm">
+                    <label for="edge">Comprimento da aresta:</label>
+                    <input type="number" id="edge" name="edge" required>
+                    <label for="angle">Ângulo entre as faces (em graus):</label>
+                    <input type="number" id="angle" name="angle" required>
+                    <button type="submit">Calcular Área</button>
+                </form>
+                <p id="result" class="result"></p>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Formas e Fatos. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
