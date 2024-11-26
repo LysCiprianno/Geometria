@@ -1,7 +1,5 @@
 # Formas e Fatos
 
-![Exemplo GIF](https://cdn.pixabay.com/animation/2023/05/31/16/22/16-22-19-869_512.gif)
-
 **Formas e Fatos** é um site educativo e interativo que explora o mundo das formas geométricas e sua história. Através de uma abordagem divertida e didática, convido os usuários a aprender sobre diferentes formas geométricas, sua origem histórica e como calcular sua área de forma simples e prática. Ideal para estudantes, curiosos e aventureiros da matemática!
  
 ## **Funcionalidades**
@@ -26,10 +24,10 @@
 2. **Explore a História e Exemplos**: Descubra o contexto histórico e os exemplos dessa forma no mundo real.
 3. **Calcule a Área**: Preencha os campos solicitados para calcular a área da forma escolhida e veja o resultado.
 4. **Continue a Exploração**: Volte à página inicial para explorar outras formas geométricas e expandir seus conhecimentos!
- 
+
 ## **Acesse o Site**
  
 Você pode acessar o site do "Formas e Fatos" clicando no link abaixo:
- 
 [Formas e Fatos - Explore as Formas Geométricas](https://seusite.com)
- 
+
+![Exemplo GIF](https://cdn.pixabay.com/animation/2023/05/31/16/22/16-22-19-869_512.gif)
